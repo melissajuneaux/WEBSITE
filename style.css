@@ -1,0 +1,26 @@
+body {
+  background-color: WhiteSmoke;
+  color: Black;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+h1 {
+  color: Black;
+  text-align: center;
+  text-shadow: 1px 1px 0 black;
+}
+
+header {
+  background-color: WhiteSmoke;
+  color: Black;
+}
+
+section {
+  background-color: WhiteSmoke;
+  color: Black;
+}
+
+footer {
+  background-color: WhiteSmoke;
+  color:Black;
+}
