@@ -1,13 +1,73 @@
+/* first comment */
+
+*{
+  font-size: 100%;
+}
+
 body {
   background-color: WhiteSmoke;
   color: Black;
   font-family: Verdana,Geneva,sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/* heading styles */
+
+header h1 {
+  text-align: center;
 }
 
 h1 {
   color: Black;
+  text-align: left;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+h1,h2,h3 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+/* a:hover {
+  color: blue;
+  text-decoration: underline;
+} */
+
+a:link,
+a:focus,
+a:active {
+  color:red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+footer p {
+  font-size: 10px;
   text-align: center;
-  text-shadow: 1px 1px 0 black;
 }
 
 header {
@@ -18,6 +78,7 @@ header {
 section {
   background-color: WhiteSmoke;
   color: Black;
+
 }
 
 footer {
