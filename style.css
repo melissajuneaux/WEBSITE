@@ -21,18 +21,18 @@ header h1 {
 h1 {
   color: Black;
   text-align: left;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 25px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 25px;
 }
 h1,h2,h3 {
-  font-weight: bold;
+  font-weight: lighter;
   font-style: italic;
 }
 
