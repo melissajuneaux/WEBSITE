@@ -127,7 +127,22 @@ img {
   -webkit-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
 box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
+
 }
+/* I was trying to change my social media page the same as
+the body in my index.html , but I don't know how.*/
+
+socialmedia.html {
+  background-color: WhiteSmoke;
+  color: Black;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin: 50px;
+}
+
+
+
 
 .round {
   border-radius: 50%;
