@@ -2,6 +2,10 @@
 
 *{
   font-size: 100%;
+  /* border: 1px solid red; */
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,9 +14,16 @@ body {
   font-family: Verdana,Geneva,sans-serif;
   font-size: 14px;
   text-align: justify;
+  margin: 50px;
 }
 
 /* heading styles */
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+  /* color: blue; */
+}
 
 header h1 {
   text-align: center;
@@ -22,6 +33,7 @@ h1 {
   color: Black;
   text-align: left;
   font-size: 25px;
+  border-bottom: 1px solid black;
 }
 
 h2 {
@@ -31,13 +43,20 @@ h2 {
 h3 {
   font-size: 25px;
 }
-h1,h2,h3 {
+h4, h5, h6 {
   font-weight: lighter;
-  font-style: italic;
+  font-style: normal;;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 p {
   line-height: 2;
+  margin: 15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
 }
 
 a {
@@ -73,15 +92,43 @@ footer p {
 header {
   background-color: WhiteSmoke;
   color: Black;
+  border-bottom: 5px solid grey;
 }
 
 section {
   background-color: WhiteSmoke;
   color: Black;
-
+  border: 1px dashed black;
+  margin: 30px;
 }
 
 footer {
   background-color: WhiteSmoke;
   color:Black;
+}
+
+header,
+section,
+footer {
+  padding: 30px;
+}
+
+img {
+  /* width: 400px; */
+  height: 300px;
+}
+
+.block {
+  border-bottom: 5px solid grey;
+}
+
+/* this code generates a shadow */
+.shadow {
+  -webkit-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
+}
+
+.round {
+  border-radius: 50%;
 }
