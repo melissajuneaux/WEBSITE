@@ -9,12 +9,13 @@
 }
 
 body {
-  background-color: WhiteSmoke;
+  background-color: white;
   color: Black;
   font-family: Verdana,Geneva,sans-serif;
   font-size: 14px;
   text-align: justify;
   margin: 50px;
+  background-image: url(Images/gray_jean.png);
 }
 
 /* heading styles */
@@ -36,14 +37,7 @@ h1 {
   border-bottom: 1px solid black;
 }
 
-h2 {
-  font-size: 25px;
-}
-
-h3 {
-  font-size: 25px;
-}
-h4, h5, h6 {
+h4 {
   font-weight: lighter;
   font-style: normal;;
   margin-bottom: 20px;
@@ -72,7 +66,7 @@ a {
 a:link,
 a:focus,
 a:active {
-  color:red;
+  color:black;
   text-decoration: none;
 }
 
@@ -93,18 +87,21 @@ header {
   background-color: WhiteSmoke;
   color: Black;
   border-bottom: 5px solid grey;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 section {
   background-color: WhiteSmoke;
   color: Black;
-  border: 1px dashed black;
+  border: 1px solid black;
   margin: 30px;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 footer {
-  background-color: WhiteSmoke;
+  background-color: white;
   color:Black;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 header,
@@ -125,25 +122,51 @@ img {
 /* this code generates a shadow */
 .shadow {
   -webkit-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 15px -5px rgba(0,0,0,0.75);
 
 }
-/* I was trying to change my social media page the same as
-the body in my index.html , but I don't know how.*/
 
-socialmedia.html {
-  background-color: WhiteSmoke;
-  color: Black;
-  font-family: Verdana,Geneva,sans-serif;
-  font-size: 14px;
-  text-align: justify;
-  margin: 50px;
+.container {
+  max-width: 700px;
+  margin: 0 auto;
 }
-
-
-
 
 .round {
   border-radius: 50%;
+}
+.banner {
+  height: 500px;
+  background-image: url(Images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+\*}
+
+.flex-container {
+  display: flex;
+  background-color: grey;
+}
+
+.flex-container > div {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.gallery-item {
+  width: 25%;
+  padding: 4px;
+
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
 }
