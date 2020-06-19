@@ -90,7 +90,7 @@ section {
 
 
 footer {
-  background-color: whitesmoke;
+  background-color: darkgrey;
   color:Black;
   font-size: 25px;
   text-align: center;
@@ -155,18 +155,18 @@ footer {
 }
 /* social media tags */
 .fa-pinterest {
-  background: white;
-  color: grey;
+  background: darkgrey;
+  color: white;
 }
 
 .fa-linkedin {
-  background: white;
-  color: grey;
+  background: darkgrey;
+  color: white;
 }
 
   .fa-instagram {
-  background: white;
-  color: grey;
+  background: darkgrey;
+  color: white;
 }
 
 img {
