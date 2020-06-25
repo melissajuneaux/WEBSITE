@@ -56,7 +56,6 @@ ul, ol {
 }
 
 
-
 a:link,
 a:focus,
 a:active {
@@ -112,7 +111,7 @@ footer {
 header,
 section,
 footer {
-  padding: 30px;
+  padding: 40px;
 }
 
 
