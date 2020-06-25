@@ -162,13 +162,13 @@ footer {
   padding: 20px;
   font-size: 30px;
 }
-/* social media tags */
+/* social media tags broke linkd  in on purpse */
 .fa-pinterest {
   background: darkgrey;
   color: white;
 }
 
-.fa-linkedin {
+fa-linkedin {
   background: darkgrey;
   color: white;
 }
